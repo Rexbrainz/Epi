@@ -3,7 +3,7 @@
 /*           integer corresponding to the digits of the input written in   */
 /*           reverse order. For example, the reverse of 42 is 24, and the  */
 /*           reverse of -314 is -413.                                      */
-/* Date:     2025-08-21                                                    */
+/* Date:     2025-08-22                                                    */
 /* Author:   Success Daniel                                                */
 /* *************************************************************************/
 
@@ -15,13 +15,14 @@ using namespace std;
 int reverse_digit(int x)
 {
     int result { };
-    int x_abs{ abs(x) };
+    int x_abs{ abs(x) }; // Remove the negative sign if there is one.
 
     while (x_abs)
     {
         result = result * 10 + x_abs % 10;
         x_abs /= 10;
     }
+    // if x is negative, return result as negative.
     return (x < 0 ? -result : result);
 }
 
