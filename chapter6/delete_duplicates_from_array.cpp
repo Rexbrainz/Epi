@@ -76,11 +76,11 @@ int AllowAtMostTwoDuplicates(std::vector<int>* A_ptr, int m)
 {
   std::vector<int>& A { *A_ptr };
   int count{};
-  int write_index {1};
+  int write_index {0};
 
   for (int i{}; i < A.size(); ++i)
   {
-    if (A[write_index - 1] != A[i])
+    if (i == 0 || A[i] != A[i - 1])
       count = 1;
     else
       ++count;
