@@ -1,8 +1,8 @@
 /*****************************************************************************/
-/* Task:    write_index a program which takes as input a sorted array and updates  */
-/*          it so that a dupicates have been removed and the remaining       */
-/*          elements have been shifted left to fill the emptied indicies     */
-/*          Return the number of valid elements.                             */
+/* Task:    write a program which takes as input a sorted array and          */
+/*          updates it so that a dupicates have been removed and the         */
+/*          remaining elements have been shifted left to fill the emptied    */
+/*          indices. Return the number of valid elements.                    */
 /* Date:    2025-09-11                                                       */
 /* Author:  Success Daniel                                                   */
 /*****************************************************************************/
