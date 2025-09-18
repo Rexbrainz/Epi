@@ -2,7 +2,7 @@
 /* Task:    write a program that takes as input a permutation, and returns   */
 /*          the next permutation under dictionary ordering. If the           */
 /*          permutation is the last permutation, return the empty array.     */
-/* Date:    2025-09-15                                                       */
+/* Date:    2025-09-16                                                       */
 /* Author:  Success Daniel                                                   */
 /*****************************************************************************/
 
